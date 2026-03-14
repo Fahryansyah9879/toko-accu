@@ -87,11 +87,11 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu */}
-          <div className="flex lg:hidden items-center gap-3">
+          <div className="flex lg:hidden items-center gap-3 relative z-50">
             <a
               href="tel:+6282158544469"
               data-testid="call-btn-mobile"
-              className="bg-[#E63946] text-white p-2.5 rounded-lg"
+              className="bg-[#E63946] text-white p-2.5 rounded-lg hover:bg-[#D62828] transition-colors"
             >
               <Phone className="w-5 h-5" />
             </a>
@@ -101,7 +101,7 @@ export default function Navbar() {
                   variant="outline"
                   size="icon"
                   data-testid="mobile-menu-btn"
-                  className="border-[#1D3557]"
+                  className="border-[#1D3557] bg-white hover:bg-gray-50"
                 >
                   <Menu className="w-5 h-5 text-[#1D3557]" />
                 </Button>
