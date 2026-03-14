@@ -1,0 +1,137 @@
+{
+  "project_name": "Toko Accu Prima Battery",
+  "design_philosophy": {
+    "identity": "The Rapid Response Mechanic",
+    "vibe": "Industrial, High-Vis, Trustworthy, Fast",
+    "core_values": [
+      "Speed (Emergency Focus)",
+      "Reliability (Genuine Parts)",
+      "Accessibility (Local & Mobile First)"
+    ],
+    "archetype": "The Performance Pro (Athletic & Precision)"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Barlow Condensed, sans-serif",
+      "weights": ["700", "800"],
+      "usage": "Use for all section titles and hero slogans. High impact, tight tracking.",
+      "styles": "uppercase tracking-tight"
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "All readability text. Clean, modern, high legibility on mobile.",
+      "styles": "leading-relaxed"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "hex": "#E63946",
+        "name": "Emergency Red",
+        "usage": "Primary CTAs (Call Now), Emergency Banners, Discount Badges"
+      },
+      "secondary": {
+        "hex": "#1D3557",
+        "name": "Mechanic Navy",
+        "usage": "Headers, Footers, Text Headings, Strong borders"
+      },
+      "accent": {
+        "hex": "#FFB703",
+        "name": "Voltage Yellow",
+        "usage": "Highlights, Icons, Secondary Buttons, 'Battery' visual cues"
+      },
+      "background": {
+        "hex": "#F8FAFC",
+        "name": "Industrial White",
+        "usage": "Main page background"
+      },
+      "surface": {
+        "hex": "#FFFFFF",
+        "name": "Clean White",
+        "usage": "Cards, Form backgrounds"
+      }
+    },
+    "gradients": {
+      "hero_gradient": "linear-gradient(135deg, #1D3557 0%, #162447 100%)",
+      "emergency_gradient": "linear-gradient(90deg, #E63946 0%, #D62828 100%)"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#E63946] hover:bg-[#D62828] text-white font-bold uppercase tracking-wider rounded-none skew-x-[-10deg] hover:skew-x-0 transition-all shadow-lg",
+      "secondary": "bg-[#FFB703] hover:bg-[#FFCA3A] text-[#1D3557] font-bold uppercase tracking-wider rounded-none",
+      "outline": "border-2 border-[#1D3557] text-[#1D3557] hover:bg-[#1D3557] hover:text-white font-bold uppercase rounded-none"
+    },
+    "cards": {
+      "style": "bg-white border-l-4 border-[#FFB703] shadow-md hover:shadow-xl transition-all p-6 rounded-r-lg",
+      "hover_effect": "transform -translate-y-1"
+    },
+    "floating_action": {
+      "whatsapp": "fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center gap-2 font-bold"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": "gap-8 md:gap-12 lg:gap-16",
+    "grid_system": {
+      "bento_features": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "products": "grid grid-cols-2 md:grid-cols-4 gap-4"
+    }
+  },
+  "visual_assets": {
+    "images": [
+      {
+        "category": "Hero Background",
+        "url": "https://images.unsplash.com/photo-1764122623556-90a7d480df53?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Close-up of car engine/battery, high tech feel",
+        "usage": "Hero section background or side image"
+      },
+      {
+        "category": "Service - Mechanic",
+        "url": "https://images.unsplash.com/photo-1770656506122-99bc73ac9d66?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Mechanic working on engine",
+        "usage": "Services or About Us section"
+      },
+      {
+        "category": "Delivery Service",
+        "url": "https://images.unsplash.com/photo-1642047291146-7916f38ebde0?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Motorbike delivery",
+        "usage": "Delivery/Pesan Antar feature card"
+      },
+      {
+        "category": "Testimonial",
+        "url": "https://images.unsplash.com/photo-1527877218688-f3f0f876a186?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Happy customer thumbs up in car",
+        "usage": "Reviews section"
+      }
+    ],
+    "icons": {
+      "library": "lucide-react",
+      "essential_icons": ["BatteryCharging", "Wrench", "Truck", "Phone", "MapPin", "Star", "Zap", "Clock"]
+    }
+  },
+  "content_guidelines": {
+    "tone": "Direct, Professional, Helpful, Urgent (for emergencies).",
+    "language": "Indonesian (Bahasa Indonesia)",
+    "keywords": ["Ganti Aki", "Antar Pasang", "Aki Mobil Cikarang", "GS Astra", "Darurat", "24 Jam"],
+    "brand_names": ["GS Astra", "Yuasa", "Incoe", "Amaron"]
+  },
+  "instructions_to_main_agent": [
+    "1. MOBILE FIRST: Design for 360px width first. Buttons must be full width on mobile.",
+    "2. NAVBAR: Sticky header is mandatory. 'Call Now' button must be visible in header on mobile.",
+    "3. HERO SECTION: Must address the 'Panic' moment. Headline: 'Mobil Mogok? Kami Antar Aki Sekarang!'",
+    "4. MAPS: Embed Google Maps iframe for 'Toko Accu Prima Battery Cikarang' in the Contact section.",
+    "5. WHATSAPP: The floating button is the most important conversion tool. Make it pulse.",
+    "6. PRODUCTS: Do not build a complex e-commerce cart. Just a catalogue with 'Pesan via WA' buttons.",
+    "7. TESTIMONIALS: Use the provided happy customer image and standard 4.4 star rating visual.",
+    "8. SHADCN: Use 'Card', 'Button', 'Accordion' (for FAQ), 'Sheet' (for mobile menu).",
+    "9. ANIMATION: Use subtle 'fade-in-up' for service cards. Do not over-animate.",
+    "10. DO NOT USE TRANSPARENT BACKGROUNDS FOR TEXT CONTAINERS. Always use a solid or blurred backdrop."
+  ],
+  "universal_guidelines": {
+    "theme_preference": "light",
+    "border_radius": "rounded-lg",
+    "shadow_style": "shadow-lg"
+  }
+}
